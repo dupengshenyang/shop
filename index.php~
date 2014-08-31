@@ -10,12 +10,4 @@ define('JS_URL', 'http://127.0.0.1/shop/public/Home/js');
 
 define('ADMIN_CSS_URL', 'http://127.0.0.1/shop/public/Admin/css');
 define('ADMIN_IMAGES_URL', 'http://127.0.0.1/shop/public/Admin/img');
-define('ADMIN_JS_URL', 'http://127.0.0.1/shop/public/Admin/js');
 require '../thinkphp/ThinkPHP/ThinkPHP.php';
-
-function show_bug()
-{       
-        echo '<pre>';
-        $goods = new \Model\GoodsModel();
-        var_dump($goods);
-}

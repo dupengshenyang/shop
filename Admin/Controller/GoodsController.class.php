@@ -7,6 +7,7 @@ class GoodsController extends controller
     
     function showList()
     {
+        //show_bug();
         $this->display();
     }
 
